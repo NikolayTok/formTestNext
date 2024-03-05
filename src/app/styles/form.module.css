@@ -1,0 +1,122 @@
+.form {
+  max-width: 600px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.formFields div {
+  margin-bottom: 10px;
+}
+
+.label {
+  text-align: start;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
+
+.button {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px 0;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.buttonPrev {
+  background-color: #4d5864;
+}
+
+.buttonNext {
+  background-color: #007bff;
+}
+
+.buttonSubmit {
+  background-color: #28a745;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.errorMessage {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: -15px;
+  text-align: start;
+}
+
+.formWrap {
+  max-height: 60vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.formConatiner {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.formResults {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: start;
+}
+
+.formResults h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.formResultList {
+  list-style: none;
+  padding: 0;
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.formResults li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
